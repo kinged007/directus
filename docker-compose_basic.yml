@@ -1,0 +1,19 @@
+version: '3'
+services:
+  directus:
+    container_name: directus
+    image: directus/directus:10.4.0
+    ports:
+      - 8055:8055
+    volumes:
+      - ./database:/directus/database
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+      # - ./node_modules/directus-extension-tags-m2m-interface/dist:/directus/extensions/interfaces/m2m-tags
+      # - ./node_modules/@thirdrocktechno/directus-extension-directusgpt/dist:/directus/extensions/interfaces/directusgpt
+    env_file: '.env'
+    # environment:
+      
+      
+      
+      

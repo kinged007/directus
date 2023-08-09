@@ -1,0 +1,7 @@
+[EXPORT]
+baseurl = http://0.0.0.0:8055
+access_token = XGYrnPCOzxQJbjvIsUkMh3pJsl0F2sTS
+
+[IMPORT]
+baseurl = https://cp.cryptosnack.net
+access_token = Aa6SHUd3a8Z4Sd4VZx_VcwLoJcCvT2b2
