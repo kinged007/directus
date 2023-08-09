@@ -2,7 +2,7 @@ version: '3'
 services:
 
   directus:
-    container_name: cs-directus
+    container_name: directus
     restart: unless-stopped
     image: directus/directus:10.5.2
     ports:
